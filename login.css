@@ -1,0 +1,65 @@
+body{
+    background-color: #1b2838;
+    margin: 0;
+}
+
+
+
+.card_login1{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+.card_login2{
+    border: 2px solid;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #181a21;
+    border-color: red;
+}
+
+.card_label {
+    margin-bottom: 10px;
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a7a0a0;
+}
+
+.card_input {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.card_button{
+    margin-bottom: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_titulo{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.card_titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}

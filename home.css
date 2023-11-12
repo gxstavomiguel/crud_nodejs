@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b2838;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_label_buscar{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home_titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+.home_titulo_lista_artigos{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.home_artigos_cards{
+   margin: 0 -10px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+
+
+.home_lista_artigos1{
+    border: 2px solid;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #181a21;
+    border-color: red;
+    margin: 0 10px;
+}
+
+.home_lista_artigos2{
+    border: 2px solid;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #181a21;
+    border-color: red;
+    margin: 0 10px;
+}
+
+.home_lista_artigos3{
+    border: 2px solid;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #181a21;
+    border-color: red;
+    margin: 0 10px;
+}
+

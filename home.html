@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <form id="buscaForm" method="post" action="/home">
+      <h1 class="home_titulo">Page Home</h1>
+
+      <div class="home_artigos_cards">
+        <div class="home_lista_artigos1">
+          <h1 class="home_titulo_lista_artigos">Artigos em destaque</h1>
+        </div>
+
+        <div class="home_lista_artigos2">
+          <h1 class="home_titulo_lista_artigos">Artigos mais curtidos</h1>
+        </div>
+
+        <div class="home_lista_artigos3">
+          <h1 class="home_titulo_lista_artigos">Outros</h1>
+          <a href="login.html">Login/Admin</a>
+          <a href="artigos.html">Aritogos</a>
+
+          <label class="home_label_buscar">Buscar Artigos:</label>
+          <input type="text" id="buscar_artigo" name="buscar_artigo" />
+          <button>Buscar</button>
+        </div>
+      </div>
+    </form>
+    <script src="/routes/index.js"></script>
+    <script src="/app.js"></script>
+    <link rel="stylesheet" href="home.css"/>
+  </body>
+</html>
